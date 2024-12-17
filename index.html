@@ -1,38 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GalleryLoop</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GalleryLoop</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-  <div class="gallery-slider">
-    <div class="slider">
-      <div class="slide active">
-        <img src="./image/cr4NJVuwqdAl3mQ.jpg" alt="Artwork 1">
-        <p class="caption">Artwork 1: Beautiful Sunrise</p>
+  <body>
+    <div class="gallery-slider">
+      <div class="slider">
+        <div class="slide active">
+          <!-- <img src="./image/cr4NJVuwqdAl3mQ.jpg" alt="Artwork 1"> -->
+          <img
+            src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ad8fc68c-bf71-4b9c-933f-c433236e9526/dfy6032-fa60539b-9dae-4900-ac4f-d9311f2ed46b.jpg/v1/fill/w_1192,h_670,q_70,strp/beautiful_sunrise_by_various78_dfy6032-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcL2FkOGZjNjhjLWJmNzEtNGI5Yy05MzNmLWM0MzMyMzZlOTUyNlwvZGZ5NjAzMi1mYTYwNTM5Yi05ZGFlLTQ5MDAtYWM0Zi1kOTMxMWYyZWQ0NmIuanBnIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.Vdr0ssc21rfJgb7k88h9JvdJVxq1ElJsec6nBkqfNPQ"
+            alt="Artwork 1"
+          />
+          <p class="caption">Artwork 1: Beautiful Sunrise</p>
+        </div>
+        <div class="slide">
+          <!-- <img src="./image/KfuvNMqBvkEPLcZ.jpg" alt="Artwork 2"> -->
+          <img
+            src="https://t3.ftcdn.net/jpg/09/44/27/72/360_F_944277297_wY09jgMDNwIixc0OwZbC7CwFMlI8OHMG.jpg"
+            alt="Artwork 2"
+          />
+          <p class="caption">Artwork 2: Abstract Colors</p>
+        </div>
+        <div class="slide">
+          <!-- <img src="./image/image.jpg" alt="Artwork 3"> -->
+          <img
+            src="https://cdn.oceanservice.noaa.gov/oceanserviceprod/facts/waves-of-poster.jpg"
+            alt="Artwork 3"
+          />
+          <p class="caption">Artwork 3: Ocean Wave</p>
+        </div>
       </div>
-      <div class="slide">
-        <img src="./image/KfuvNMqBvkEPLcZ.jpg" alt="Artwork 2">
-        <p class="caption">Artwork 2: Abstract Colors</p>
-      </div>
-      <div class="slide">
-        <img src="./image/image.jpg" alt="Artwork 3">
-        <p class="caption">Artwork 3: Ocean Wave</p>
+      <button class="arrow left" aria-label="Previous Slide">‹</button>
+      <button class="arrow right" aria-label="Next Slide">›</button>
+      <div class="pagination-dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
       </div>
     </div>
-    <button class="arrow left" aria-label="Previous Slide">‹</button>
-    <button class="arrow right" aria-label="Next Slide">›</button>
-    <div class="pagination-dots">
-      <span class="dot active"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-    </div>
-  </div>
-  <script src="script.js" defer></script>
-</body>
-
+    <script src="script.js" defer></script>
+  </body>
 </html>
