@@ -53,7 +53,7 @@ body {
 /* Navigation Arrows */
 .arrow {
   position: absolute;
-  top: 40%;
+  bottom: 55%;
   transform: translateY(-50%);
   background: none;
   border: none;
@@ -92,4 +92,18 @@ body {
 
 .dot.active {
   opacity: 1;
+}
+
+@media screen and (max-width:300px) {
+  .arrow {
+    position: absolute;
+    bottom: 60%;
+    transform: translateY(-80%);
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 10;
+  }
 }
